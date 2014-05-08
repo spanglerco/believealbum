@@ -1,0 +1,21 @@
+body { font-family: Papyrus, fantasy; margin: 0px; padding: 10px 0px; text-align: center; background-color: #E9A6D2; background-image: url('http://believealbum.spanglerco.com/images/tile.jpg'); background-repeat: repeat; }
+#spots { width: 100%; background-repeat: repeat-x; background-image: url('http://believealbum.spanglerco.com/images/spots.jpg'); height: 616px; position: absolute; top: 0px; left: 0px; z-index: -1; }
+#main { width: 800px; text-align: left; background-color: white; margin: 0px auto; border-width: 1px; border-style: solid; border-color: #AAAAAA; }
+#headerLine { height: 10px; }
+#header { font-size: 30px; text-align: center; font-weight: bolder; color: white; background-color: #9FC6FF; margin-top: 10px; border-bottom: 1px solid #AAAAAA; border-top: 1px solid #AAAAAA; }
+#menu { margin: 5px auto 0px; text-align: center; width: 780px; height: 50px; }
+#menu ul { list-style-type: none; margin: 0px; padding: 0px; width: 100%; text-align: left; }
+#menu ul li { margin: 0px; border-width: 1px; border-style: solid; border-color: #CCCCCC #AAAAFF #AAAAFF #CCCCCC; float: left; width: 193px; }
+#menu ul li a { padding: 0px 0px 0px 5px; background-color: #9FC6FF; display: block; }
+#menu ul li a:link, #menu ul li a:visited { text-decoration: none; color: #0000FF; }
+#menu ul li a:hover { background-color: #E9A6D2; }
+#menu ul #current { background-color: #E9A6D2; }
+#content { padding: 0px 5px 5px; }
+.center { text-align: center; }
+a:link, a:visited { text-decoration: none; color: #0000FF; }
+a:hover, a:active { color: #6666FF; }
+#credits { color: #222222; font-size: smaller; margin-top: 5px; }
+#credits a:link, #credits a:visited { text-decoration: none; color: #4444FF; }
+#credits a:hover, #credits a:active { text-decoration: underline; color: #0000FF; }
+a:link img, a:visited img { border-width: 0px; }
+#clear { clear: both; height: 10px; }
